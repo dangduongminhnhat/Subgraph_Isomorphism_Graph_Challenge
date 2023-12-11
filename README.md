@@ -7,14 +7,14 @@ This is a major assignment in the DISCRETE STRUCTURES FOR COMPUTER SCIENCE cours
 ## Getting Start
 ### Installing
 1. Clone the Repo
-   '''sh
+   ```sh
    git clone https://github.com/dangduongminhnhat/Subgraph_Isomorphism_Graph_Challenge.git
-   '''
+   ```
 2. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [networkx](https://networkx.org/documentation/stable/install.html).
-   '''sh
+   ```sh
    pip install networkx
-   '''
+   ```
 ## Usage
-'''sh
+```sh
 python ./generateGraph.py file_name.tsv
-'''
+```
