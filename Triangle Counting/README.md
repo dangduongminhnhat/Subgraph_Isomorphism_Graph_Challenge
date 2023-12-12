@@ -16,5 +16,5 @@ Demo and experiment in counting triangles
 ## Usage
 
 ```sh
-python ./demoCounting.py
+python ./demoCounting.py fileName
 ```

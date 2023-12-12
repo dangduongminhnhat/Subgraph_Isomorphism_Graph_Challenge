@@ -19,7 +19,10 @@ if len(sys.argv) == 1:
     file_name = "default"
 else:
     file_name = sys.argv[1]
-n = random.randint(5, 10)
+try:
+    n = int(sys.argv[2])
+except:
+    n = random.randint(5, 10)
 m = random.randint(n + 1, n * (n - 1) // 2)
 
 generate_graph(file_name, n, m)

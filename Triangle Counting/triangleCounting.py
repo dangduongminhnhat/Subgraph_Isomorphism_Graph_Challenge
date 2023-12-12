@@ -1,4 +1,5 @@
 import networkx as nx
+import numpy as np
 
 
 def brute_force_counting(graph):
@@ -9,4 +10,41 @@ def brute_force_counting(graph):
                 if i > j and j > k:
                     if graph.has_edge(i, j) and graph.has_edge(j, k) and graph.has_edge(k, i):
                         count_triangles += 1
+    return count_triangles
+
+
+def node_iterator_counting(graph):
+    count_triangles = 0
+    for i in graph.nodes():
+        adj = list(graph.neighbors(i))
+        for j in adj:
+            for k in adj:
+                if j > k and i > j and graph.has_edge(j, k):
+                    count_triangles += 1
+    return count_triangles
+
+
+def matrix_muliplication_counting(graph):
+    matrix = nx.to_numpy_array(graph, dtype=int)
+    matrix = np.asmatrix(matrix)
+
+    A = matrix.dot(matrix)
+    count_triangles = 0
+    for i in range(len(matrix)):
+        for j in range(len(matrix)):
+            count_triangles += matrix[i, j] * A[i, j]
+    return count_triangles // 6
+
+
+def forward_counting(graph):
+    count_triangles = 0
+    A = {}
+    for v in graph.nodes():
+        A[v] = set()
+    for s in range(graph.number_of_nodes()):
+        for t in graph.neighbors(s):
+            if s < t:
+                for v in (A[s] & A[t]):
+                    count_triangles += 1
+                A[t].add(s)
     return count_triangles

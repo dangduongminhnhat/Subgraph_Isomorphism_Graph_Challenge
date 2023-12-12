@@ -33,7 +33,6 @@ def animation_graph(G, algo):
         labels[i] = i
 
     def update(num):
-        global count
         path = triangles[num]
         ax.clear()
 
@@ -75,4 +74,20 @@ def animation_graph(G, algo):
 
     ani = matplotlib.animation.FuncAnimation(
         fig, update, frames=len(triangles), interval=1000, repeat=True)
+    plt.show()
+
+
+def draw_graph(G):
+    np.random.seed(int(time.time()))
+    pos = nx.spring_layout(G)
+    fig, ax = plt.subplots(figsize=(6, 4))
+    nx.draw_networkx_edges(G, pos=pos, ax=ax, edge_color="gray")
+    null_nodes = nx.draw_networkx_nodes(
+        G, pos=pos, nodelist=set(G.nodes()), node_color="white",  ax=ax)
+    null_nodes.set_edgecolor("black")
+    labels = {}
+    for i in G.nodes():
+        labels[i] = i
+    nx.draw_networkx_labels(
+        G, pos=pos, labels=labels,  font_color="black", ax=ax)
     plt.show()
