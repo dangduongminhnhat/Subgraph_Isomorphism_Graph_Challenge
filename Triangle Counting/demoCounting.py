@@ -1,6 +1,7 @@
 from triangleCounting import brute_force_counting
 import networkx as nx
 import time
+from animationCounting import animation_graph, demo_brute_force
 
 
 def generate_graph(file_name):
@@ -24,5 +25,6 @@ def algorithm_experiment(graph, algo):
     return (triangles, start, end)
 
 
-graph = generate_graph("../data/test.tsv")
+graph = generate_graph("../data/test2.tsv")
 print(algorithm_experiment(graph, brute_force_counting))
+animation_graph(graph, demo_brute_force)
