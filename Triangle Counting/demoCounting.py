@@ -13,21 +13,33 @@ def generate_graph(file_name):
         arr = line[:-1].split("\t")
         gr.add_edge(int(arr[0]), int(arr[1]))
         line = file.readline()
+    d_min = gr.number_of_nodes()
+    d_max = 0
+    for v in gr.nodes():
+        if gr.degree[v] > d_max:
+            d_max = gr.degree[v]
+        if gr.degree[v] < d_min:
+            d_min = gr.degree[v]
+    d_average = 2 * gr.number_of_edges() / gr.number_of_nodes()
     print("Graph's data: " + file_name)
     print("Number of nodes: " + str(gr.number_of_nodes()))
     print("Number of edges: " + str(gr.number_of_edges()))
+    print("The average degree:", d_average)
+    print("The min degree:", d_min)
+    print("The max degree:", d_max)
     return gr
 
 
 def algorithm_experiment(graph, algo):
     start = time.time()
-    triangles = algo(graph)
+    triangles, operations = algo(graph)
     end = time.time()
 
     print("\n------")
     print("Algorithm is", algo.__name__)
     print("The number of triangles is", triangles)
-    print("time to excute is", end - start, "(s)")
+    print("Time to excute is", end - start, "(s)")
+    print("Triangle Operations is", operations)
     print("------\n")
 
 

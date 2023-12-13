@@ -1,0 +1,395 @@
+Graph's data: ../data/data100.tsv
+Number of nodes: 100
+Number of edges: 2601
+The average degree: 52.02
+The min degree: 40
+The max degree: 65
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 23543
+Time to excute is 0.14667701721191406 (s)
+Triangle Operations is 1000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 23543
+Time to excute is 0.03200268745422363 (s)
+Triangle Operations is 273332
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 23543
+Time to excute is 0.020999431610107422 (s)
+Triangle Operations is 10000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 23543
+Time to excute is 0.005999326705932617 (s)
+Triangle Operations is 23543
+
+------------------------------------
+
+Number of nodes: 200
+Number of edges: 10263
+The average degree: 102.63
+The min degree: 78
+The max degree: 124
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 180339
+Time to excute is 1.1604583263397217 (s)
+Triangle Operations is 8000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 180339
+Time to excute is 0.2670004367828369 (s)
+Triangle Operations is 2117264
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 180339
+Time to excute is 0.08354926109313965 (s)
+Triangle Operations is 40000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 180339
+Time to excute is 0.04799938201904297 (s)
+Triangle Operations is 180339
+------
+
+--------------------------------------------
+
+Graph's data: ../data/data300.tsv
+Number of nodes: 300
+Number of edges: 34920
+The average degree: 232.8
+The min degree: 215
+The max degree: 253
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 2103030
+Time to excute is 3.1413521766662598 (s)
+Triangle Operations is 27000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 2103030
+Time to excute is 1.8692193031311035 (s)
+Triangle Operations is 16274454
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 2103030
+Time to excute is 0.22899794578552246 (s)
+Triangle Operations is 90000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 2103030
+Time to excute is 0.3340318202972412 (s)
+Triangle Operations is 2103030
+------
+
+-------------------------------------
+
+Graph's data: ../data/data400.tsv
+Number of nodes: 400
+Number of edges: 61358
+The average degree: 306.79
+The min degree: 286
+The max degree: 330
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 4811695
+Time to excute is 8.63578462600708 (s)
+Triangle Operations is 64000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 4811695
+Time to excute is 3.347418785095215 (s)
+Triangle Operations is 37674748
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 4811695
+Time to excute is 0.36344337463378906 (s)
+Triangle Operations is 160000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 4811695
+Time to excute is 0.6138119697570801 (s)
+Triangle Operations is 4811695
+------
+
+-----------------------------------
+
+Graph's data: ../data/data500.tsv
+Number of nodes: 500
+Number of edges: 55669
+The average degree: 222.676
+The min degree: 191
+The max degree: 252
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 1841377
+Time to excute is 11.145891666412354 (s)
+Triangle Operations is 125000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 1841377
+Time to excute is 1.6545653343200684 (s)
+Triangle Operations is 24854842
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 1841377
+Time to excute is 0.4119691848754883 (s)
+Triangle Operations is 250000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 1841377
+Time to excute is 0.3349604606628418 (s)
+Triangle Operations is 1841377
+------
+
+---------------------------------------------
+
+Graph's data: ../data/data600.tsv
+Number of nodes: 600
+Number of edges: 138392
+The average degree: 461.3066666666667
+The min degree: 425
+The max degree: 489
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 16361559
+Time to excute is 25.400588035583496 (s)
+Triangle Operations is 216000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 16361559
+Time to excute is 12.607801675796509 (s)
+Triangle Operations is 127747714
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 16361559
+Time to excute is 0.8685717582702637 (s)
+Triangle Operations is 360000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 16361559
+Time to excute is 2.9167587757110596 (s)
+Triangle Operations is 16361559
+------
+
+--------------------------------------
+
+Graph's data: ../data/data700.tsv
+Number of nodes: 700
+Number of edges: 196622
+The average degree: 561.7771428571428
+The min degree: 523
+The max degree: 591
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 29547275
+Time to excute is 44.51260995864868 (s)
+Triangle Operations is 343000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 29547275
+Time to excute is 22.857653617858887 (s)
+Triangle Operations is 220991478
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 29547275
+Time to excute is 1.2869997024536133 (s)
+Triangle Operations is 490000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 29547275
+Time to excute is 4.58801531791687 (s)
+Triangle Operations is 29547275
+------
+
+------------------------------------
+
+Graph's data: ../data/data800.tsv
+Number of nodes: 800
+Number of edges: 223240
+The average degree: 558.1
+The min degree: 517
+The max degree: 602
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 28975536
+Time to excute is 75.10223388671875 (s)
+Triangle Operations is 512000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 28975536
+Time to excute is 19.89408564567566 (s)
+Triangle Operations is 249320896
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 28975536
+Time to excute is 1.1303298473358154 (s)
+Triangle Operations is 640000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 28975536
+Time to excute is 3.285865068435669 (s)
+Triangle Operations is 28975536
+------
+
+----------------------------------------
+
+Graph's data: ../data/data900.tsv
+Number of nodes: 900
+Number of edges: 258247
+The average degree: 573.8822222222223
+The min degree: 530
+The max degree: 615
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 31496964
+Time to excute is 111.59675979614258 (s)
+Triangle Operations is 729000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 31496964
+Time to excute is 34.72194743156433 (s)
+Triangle Operations is 296581672
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 31496964
+Time to excute is 2.389892816543579 (s)
+Triangle Operations is 810000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 31496964
+Time to excute is 5.623053073883057 (s)
+Triangle Operations is 31496964
+------
+
+-----------------------------------------
+
+Graph's data: ../data/data1000.tsv
+Number of nodes: 1000
+Number of edges: 470044
+The average degree: 940.088
+The min degree: 915
+The max degree: 958
+
+------
+Algorithm is brute_force_counting
+The number of triangles is 138468223
+Time to excute is 219.05820870399475 (s)
+Triangle Operations is 1000000000
+------
+
+
+------
+Algorithm is node_iterator_counting
+The number of triangles is 138468223
+Time to excute is 104.59447956085205 (s)
+Triangle Operations is 883818806
+------
+
+
+------
+Algorithm is matrix_muliplication_counting
+The number of triangles is 138468223
+Time to excute is 3.648529529571533 (s)
+Triangle Operations is 1000000
+------
+
+
+------
+Algorithm is forward_counting
+The number of triangles is 138468223
+Time to excute is 15.529858112335205 (s)
+Triangle Operations is 138468223
+------
